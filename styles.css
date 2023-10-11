@@ -43,41 +43,46 @@ header {
 /* Estilos do ícone de login */
 .login-icon {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 10px;
+    
 }
 
 .login-icon svg {
     width: 40px;
     height: 40px;
     margin-right: 20px;
-
 }
 
 /* Estilos do Painel do Cliente */
 .client-panel {
     text-align: left;
     font-size: 12px;
-    
 }
 
 .client-panel h1 {
-font-size: 25px;
-margin-bottom: 1px;
+    font-size: 25px;
+    margin-bottom: 1px;
+    color: #ffffff;
 }
 
 .client-panel h2 {
-
-
     font-size: 18px;
     font-weight: lighter;
     font-style: italic;
-    font-family:Arial, 
+    font-family: Arial, sans-serif;
+}
 
-    }
+.client-panel .login-link {
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    color: #ffffff; /* Define a cor do texto para azul (você pode escolher outra cor) */
+    font-weight: bold; /* Define a fonte em negrito (opcional) */
+    font-size: 25px; /* Define o tamanho da fonte (opcional) */
+    /* Outros estilos que desejar aplicar */
+}
+
 
 
 
@@ -1064,10 +1069,6 @@ margin-bottom: 1px;
 .top-section-2 .first-line1{
 
     margin-bottom: -60px;
-
-    
-
-
 }
 
 
@@ -1075,9 +1076,7 @@ margin-bottom: 1px;
 
     margin-bottom: -60px;
     margin-top: 100px;
-
-    
-
+    color: #000000;
 
 }
 
